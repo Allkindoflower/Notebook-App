@@ -1,5 +1,6 @@
 import os
 
+#clears terminal
 def userClear(user_command):
         os.system('cls' if os.name == 'nt' else 'clear')
 
