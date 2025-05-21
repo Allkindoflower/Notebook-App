@@ -1,7 +1,7 @@
 import os
 
 #clears terminal
-def userClear(user_command):
+def userClear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
@@ -73,7 +73,6 @@ def deleteNote():
 
 print('Your personal notepad, type "help" for a list of commands. Do not worry, there are no SECRETs here...')
 user_command = ''
-
 
 while True:
     user_command = input('> ').lower().strip()
